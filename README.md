@@ -1,9 +1,16 @@
 # Fair Housing Bike Tour - Leaflet Storymaps with Google Sheets
 
-
 ## Live links (replace with your own)
 - Leaflet Map https://bikewesthartford.github.io/fair-housing-bike-tour/
 - Google Sheets template https://docs.google.com/spreadsheets/d/11xJUktda85L82Tosd0rzaijpkux_4C3s6nj69SqfB_k/edit#gid=0
+
+## Customized
+
+Changed `i + 2` to `i + 1` and set introductory chapter to be hidden
+``` 
+// Update URL hash
+location.hash = i + 1;
+```
 
 ## Create Your Own
 - See step-by-step tutorial in *Hands-On Data Visualization* https://HandsOnDataViz.org/leaflet-storymaps-with-google-sheets.html
