@@ -290,7 +290,7 @@ $(window).on('load', function() {
         ) {
 
           // Update URL hash
-          location.hash = i + 2;
+          location.hash = i + 1;
 
           // Remove styling for the old in-focus chapter and
           // add it to the new active chapter
