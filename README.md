@@ -6,7 +6,7 @@
 
 ## Customized
 
-Changed `i + 2` to `i + 1` and set introductory chapter to be hidden
+In storymap.js around line 292, changed `i + 2` to `i + 1` to better match chapter numbering
 ``` 
 // Update URL hash
 location.hash = i + 1;
